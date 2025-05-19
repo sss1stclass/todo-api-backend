@@ -7,7 +7,7 @@
   <br/>
  3. npm run dev
   <br/>
- - npm run dev
+
  <h5>Packages used </h5>
 - sqlite3
 - express

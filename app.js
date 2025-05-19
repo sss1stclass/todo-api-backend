@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 //  get  all Todo list 
 app.get('/todos', (req, res) => {
-    db.all('SELECT * FROM todos ORDER BY created_at ASC', [], (err, rows) => {
+    db.all('SELECT * FROM todos ORDER BY created_at DESC', [], (err, rows) => {
         if (err) {
             return res.status(500).json({ error: err.message });
         }

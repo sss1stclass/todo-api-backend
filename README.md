@@ -1,5 +1,12 @@
 #  Todo Backend
  <h5> To start the server</h5>
+ <br/>
+ 1. cd todo-api
+  <br/>
+ 2. npm install
+  <br/>
+ 3. npm run dev
+  <br/>
  - npm run dev
  <h5>Packages used </h5>
 - sqlite3
